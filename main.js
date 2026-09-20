@@ -16,9 +16,11 @@ const card7 = document.getElementById("infoCard7");
 const card8 = document.getElementById("infoCard8");
 
 const card9 = document.getElementById("infoCard9");
+const card10 = document.getElementById("infoCard10");
 
 
-const slides = [card1, card2, card3, card4, card5, card6, card7, card8, card9];
+
+const slides = [card1, card2, card3, card4, card5, card6, card7, card8, card9, card10];
 
 function showSlide() {
     slides.forEach(card => card.classList.add("hidden"));
